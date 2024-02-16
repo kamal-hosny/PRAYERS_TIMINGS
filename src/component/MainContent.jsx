@@ -21,7 +21,7 @@ export default function MainContent() {
     Fajr: "04:20",
     Dhuhr: "11:50",
     Asr: "15:18",
-    Sunset: "18:03",
+    Maghrib: "18:03",
     Isha: "19:33",
   });
 
@@ -243,27 +243,27 @@ export default function MainContent() {
         <Prayer
           name="الفجر"
           time={timings.Fajr}
-          image="../../public/images/fajr-prayer.png"
+          image="https://i.pinimg.com/474x/42/82/72/4282728a23014f65111b84bc7ef4983a.jpg"
         />
         <Prayer
           name="الظهر"
           time={timings.Dhuhr}
-          image="../../public/images/dhhr-prayer-mosque.png"
+          image="https://i.pinimg.com/474x/cb/d3/8f/cbd38ffa20f9afccd718643ae07d8291.jpg"
         />
         <Prayer
           name="العصر"
           time={timings.Asr}
-          image="../../public/images/asr-prayer-mosque.png"
+          image="https://i.pinimg.com/474x/81/ba/ab/81baab42b844c8a30ba7ec6f267c8d9c.jpg"
         />
         <Prayer
           name="المغرب"
           time={timings.Maghrib}
-          image="../../public/images/sunset-prayer-mosque.png"
+          image="https://i.pinimg.com/474x/52/ec/f5/52ecf509febd46c909dd4eb7dc3df068.jpg"
         />
         <Prayer
           name="العشاء"
           time={timings.Isha}
-          image="../../public/images/night-prayer-mosque.png"
+          image="https://i.pinimg.com/474x/9f/40/80/9f40803fd20d2521d9ca56aba158982c.jpg"
         />
       </Stack>
       {/* END PRAYERS CARDS */}
